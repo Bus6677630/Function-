@@ -52,4 +52,22 @@ console.log(sum);
 myFifth([5,7]);
 
 //question number 6
+mfunction convert(minutes){
+  
+  let seconds=60*minutes;
+  
+  console.log(seconds);
+  
+}
+convert(5);
+
+
+//question number 7
+
+function increment(number) {
+number++;
+return number;
+}
+let result=increment(7);
+console.log(result);
 
